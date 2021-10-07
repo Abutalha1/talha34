@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 B4.py')
+    os.system('python B4.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -64,7 +64,7 @@ logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
 \033[1;94m ┈┈┈▕▕B4 M4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
+\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94abu talha.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 \033[1;96m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
 \033[1;96m................\033[1;93Abu Talha\033[1;91m...............
@@ -105,7 +105,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://www.facebook.com/hmpabutalha1')
+		    os.system('xdg-open ')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -146,7 +146,7 @@ def menu():
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_BALOCH Tool')
+	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_TALHA Tool')
 	print (S + '[' + P + '☞3' + S + ']' + S + ' B4_Talha WhatsApp Group')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
@@ -164,7 +164,7 @@ def mb():
 	elif bm =='1':
 		pak()
 	elif bm =='2':
-	    os.system('rm -rf $HOME/B4_BALOCH')
+	    os.system('rm -rf $HOME/B4_Talha')
 	    os.system('cd $HOME && git clone https://github.com/Abutalha1/talha34.git' )
 	    cb()
 	    print (logo)
@@ -184,10 +184,10 @@ def mb():
 	    psb('Congratulations B4_Talha Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ talha✓')
 	    psb('🔓Password ☆ talha✓')
-	    psb('Subscrib My Facebook id https://www.facebook.com/hmpabutalha1✓')
+	    psb('Follow My Facebook id https://www.facebook.com/hmpabutalha1✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/B4_Talha && python2 B4.py')
+	    os.system('cd $HOME/B4_Talha && python B4.py')
 	elif bm =='3':
 	    os.system('xdg-open https://chat.whatsapp.com/BcmyQPBz6lz3t6oVN8wLoi')
 	    menu()
@@ -357,7 +357,7 @@ def pb():
 	print(S+'BlackMafia')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 B4.py')
+	os.system('python B4.py')
 if __name__=='__main__':
     login()
 
